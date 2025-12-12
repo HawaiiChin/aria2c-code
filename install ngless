@@ -1,0 +1,8 @@
+sudo apt update
+apt list --upgradable
+sudo apt install aria2
+aria2c --version
+export CONDA_DOWNLOADER="aria2c"
+export CONDA_ARIA2_OPTIONS="-x 16 -s 16 -k 1M"
+export PATH=$PATH:usr/local/aria2c/bin
+CONDA_DOWNLOADER=aria2c conda install ngless -c bioconda
