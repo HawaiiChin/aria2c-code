@@ -1,0 +1,1 @@
+aria2c -c https://data.ace.uq.edu.au/public/CheckM_databases/checkm_data_2015_01_16.tar.gz -d /gss1/home/zlcui/qinhuayu/metaanalysis/checkm_db -x 16
